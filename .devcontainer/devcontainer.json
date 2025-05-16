@@ -9,7 +9,7 @@
     "ghcr.io/devcontainers/features/php:1": {
       "version": "8.2", // Especifique a versão do PHP desejada
       "installComposer": "true"
-    },
+    }
     // Opcional: Adicionar Node.js se precisar para ferramentas front-end
     // "ghcr.io/devcontainers/features/node:1": {}
   },
