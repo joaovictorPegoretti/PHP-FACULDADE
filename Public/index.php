@@ -3,6 +3,11 @@
 
 Class Aluno{
     public int $IdadeAluno;
+
+ public function __construct(int $Idade) {
+        $this->idade = $Idade;
+ }
+
 }
 
 $aluno = new Aluno(19);
