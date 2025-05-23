@@ -1,8 +1,17 @@
 <?php 
 
-int:$IdadeAluno = 10;
 
-echo $IdadeAluno;
+Class Aluno{
+    public int $IdadeAluno;
+}
+
+
+if($IdadeAluno >= 18){
+    echo "<p>O aluno é maior de idade</p>";
+}
+else{
+    echo "<p>O aluno não é maior de idade</p>";
+}
 
 ?>
 
