@@ -2,7 +2,7 @@
 
 
 Class Aluno{
-    public int $IdadeAluno;
+    public int $IdadeAluno = 19;
 }
 
 
