@@ -13,7 +13,7 @@ Class Aluno{
 $aluno = new Aluno(19);
 
 
-if($aluno->$IdadeAluno >= 18){
+if($aluno->idade >= 18){
     echo "<p>O aluno é maior de idade</p>";
 }
 else{
